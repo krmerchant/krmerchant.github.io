@@ -138,6 +138,10 @@ main {
     gap: 0.5rem;
 }
 
+.contact-info a svg {
+    flex-shrink: 0;
+}
+
 /* Resume Sections */
 .section {
     margin-bottom: 2.5rem;
