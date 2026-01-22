@@ -22,7 +22,6 @@ html {
     --tag-bg: #1e3a5f;
     --tag-text: #60a5fa;
     --shadow-color: rgba(0, 0, 0, 0.3);
-    --nav-icon-color: #f87171;
 }
 
 body {
@@ -77,12 +76,7 @@ nav {
 .nav-brand {
     font-size: 1.25rem;
     font-weight: 700;
-    color: var(--text-primary);
-}
-
-.nav-brand svg {
-    fill: var(--nav-icon-color);
-    transition: fill 0.3s ease;
+    color: var(--accent-color);
 }
 
 .nav-links {
